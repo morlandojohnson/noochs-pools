@@ -38,6 +38,31 @@ html {
   /* scroll-behavior: smooth; */
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Bree Serif", serif;
+}
+
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.secondary-heading {
+  font-size: 4.8rem;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 4.8rem;
+  color: #333;
+}
+
 /* Header & Nav */
 
 .header {
@@ -45,7 +70,7 @@ html {
   justify-content: space-between;
   align-items: center;
   background: #333;
-  height: 12.8rem;
+  height: 9.6rem;
   padding: 0 4.8rem;
 }
 
@@ -65,7 +90,6 @@ html {
 .nav-link:visited {
   text-decoration: none;
   font-size: 2rem;
-  font-family: "Bree Serif", serif;
   color: rgb(217, 177, 0);
 }
 
@@ -78,13 +102,112 @@ html {
 
 .section-hero {
   background: url(images/irakli-kharshiladze-28-kl1-ZSBI-unsplash.jpg);
-  /* width: 100%; */
   background-position: center;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-size: cover;
   padding: 4.8rem 0 9.6rem;
-  height: 100vh;
-  width: 100vw;
-  /* position: relative; */
+  min-height: 50vh;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 66rem;
+  padding: 6.4rem 0;
+}
+
+.primary-heading {
+  font-size: 6.4rem;
+  line-height: 1.2;
+  padding: 8rem 0 4.8rem;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  padding-bottom: 2.4rem;
+}
+
+.primary-heading,
+.hero-text {
+  letter-spacing: 0.1rem;
+  color: #f3f4f6;
+}
+
+.hero-btn-section {
+  display: flex;
+  gap: 4.8rem;
+  padding: 2.4rem 0;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  color: #f3f4f6;
+  background: #d9b100;
+  transition: all 0.3s;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  background: #00a7f2;
+}
+
+/* About Us Section */
+
+.about-us {
+  padding: 9.6rem 0;
+  background: #f3f4f6;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-image {
+  max-width: 25%;
+}
+
+/* Services Section */
+
+.services {
+  padding: 9.6rem 0;
+}
+
+.services-section {
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 9.6rem; */
+  margin: 0 auto;
+  /* gap: 4.8rem; */
+}
+
+.services-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.services-image {
+  /* margin-bottom: 2.4rem; */
+}
+
+.card-heading {
+  color: #333;
+  font-size: 2.4rem;
+}
+
+.card-text {
+  color: #333;
+  font-size: 1.8rem;
 }
