@@ -6,100 +6,144 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courgette&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Nooch's Pools</title>
   </head>
   <body>
     <header class="header">
-      <a href="#">
-        <img class="nav-logo" src="images/logo.jpg" alt="Nooch's Pools Logo"
-      /></a>
-      <nav class="nav">
+      <img src="images/logo.jpg" class="logo" alt="Nooch's Pools Logo" />
+      <nav class="main-nav">
         <ul class="nav-list">
-          <li><a class="nav-link" href="#">Services</a></li>
-          <li><a class="nav-link" href="#">About</a></li>
-          <li><a class="nav-link" href="#">Contact Us</a></li>
+          <li><a href="#" class="nav-link"></a>Home</li>
+          <li><a href="#" class="nav-link"></a>About Us</li>
+          <li><a href="" class="nav-link"></a>Services</li>
+          <li><a href="#" class="nav-link"></a>Contact</li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
-    <main>
-      <!-- Hero Section -->
-      <section class="section-hero">
-        <div class="container">
-          <section class="hero-section">
-            <h1 class="primary-heading">
-              South Florida's Premier Pool Service
-            </h1>
-            <p class="hero-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              nostrum cupiditate obcaecati vitae sit dolorum libero ex.
-            </p>
-            <section class="hero-btn-section">
-              <a class="hero-btn" href="#">Contact Us</a>
-              <a class="hero-btn" href="#">Services</a>
-            </section>
-          </section>
-        </div>
-      </section>
 
-      <!-- About Us Section -->
-      <section class="about-us">
-        <div class="container">
-          <h2 class="secondary-heading">About Us</h2>
-          <section class="about-section">
-            <section class="about-text-box">
-              <p class="about-text"></p>
-            </section>
-            <section class="about-image-box">
-              <img
-                class="about-image"
-                src="images/logo.jpg"
-                alt="Placeholder photo"
-              />
-            </section>
-          </section>
-        </div>
-      </section>
+    <section class="section-hero">
+      <h1>Nooch's Pools</h1>
+      <p>South Florida's Premier Pool Service</p>
+      <button>Contact Us</button>
+    </section>
 
-      <!-- Services Section -->
-      <section class="services">
-        <div class="container">
-          <h2 class="secondary-heading">Residental Pool Services</h2>
+    <section class="section-about">
+      <h2 class="section-header">About Nooch's Pools</h2>
+      <div>
+        <img src="#" alt="#" />
+        <h3 class="section-subheader">Expert Pool Technician</h3>
+        <p class="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+          voluptas.
+        </p>
+      </div>
+      <div>
+        <img src="#" alt="#" />
+        <h3 class="section-subheader">No Residential Contracts</h3>
+        <p class="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+          voluptas.
+        </p>
+      </div>
+      <div>
+        <img src="#" alt="#" />
+        <h3 class="section-subheader">Satisfaction Guaranteed</h3>
+        <p class="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+          voluptas.
+        </p>
+      </div>
+      <div>
+        <img src="#" alt="#" />
+        <h3 class="section-subheader">First Responder Owned Business</h3>
+        <p class="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+          voluptas.
+        </p>
+      </div>
+    </section>
 
-          <section class="services-section">
-            <section class="services-card">
-              <img class="services-image" src="#" alt="Service 1" />
-              <h3 class="card-heading">Weekly Pool Maintenance</h3>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </section>
+    <section class="section-services">
+      <h2 class="section-header">Servicing South Florida</h2>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
+          architecto id soluta dolores eius pariatur consectetur! Quos provident
+          reprehenderit animi.
+        </p>
+        <img src="#" alt="#" />
+      </div>
+      <div>
+        <img src="#" alt="#" />
+        <h3 class="section-subheader">Weekly Maintenance</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates,
+          blanditiis!
+        </p>
+        <button>Contact Us</button>
+      </div>
+      <div>
+        <img src="#" alt="#" />
+        <h3 class="section-subheader">Weekly Maintenance</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates,
+          blanditiis!
+        </p>
+        <button>Contact Us</button>
+      </div>
+      <div>
+        <img src="#" alt="#" />
+        <h3 class="section-subheader">Weekly Maintenance</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates,
+          blanditiis!
+        </p>
+        <button>Contact Us</button>
+      </div>
+    </section>
 
-            <section class="services-card">
-              <img class="services-image" src="#" alt="Service 2" />
-              <h3 class="card-heading">Weekly Pool Maintenance</h3>
-              <p class="card-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </section>
-          </section>
-        </div>
-      </section>
+    <section class="section-image-gallery">
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+    </section>
 
-      <!-- Testimonials -->
-      <section>
-        <h2>Testimonials</h2>
-      </section>
+    <section class="section-cta">
+      <h2 class="section-header">Contact Us</h2>
+      <form action="">
+        <input type="text" placeholder="name" />
+        <input type="email" placeholder="email" />
+        <input type="number" placeholder="phone number" />
+        <textarea
+          name="textarea"
+          id=""
+          placeholder="Let us know what services you're interested in"
+        ></textarea>
+        <button>Send</button>
+      </form>
+    </section>
 
-      <!-- Contact Us -->
-      <section></section>
-    </main>
+    <footer>
+      <h3 class="section-subheader">Nooch's Pools - Contact Us</h3>
+      <p>Boca Raton, Florida</p>
+      <a href="tel:5555555555">(555)555-5555</a>
+      <a href="mailto:nooch@pools">nooch@pools.com</a>
+      <p>Copyright</p>
+      <p>Pool Service - Pool Cleaning - Pool Maintenance</p>
+    </footer>
 
-    <!-- Footer -->
-    <footer></footer>
+    <script src="main.js"></script>
   </body>
 </html>
